@@ -18,9 +18,6 @@ return {
         "json",
         "json5",
         "jsonc",
-        "lua",
-        "luadoc",
-        "luap",
         "markdown",
         "markdown_inline",
         "python",
@@ -29,8 +26,6 @@ return {
         "toml",
         "tsx",
         "typescript",
-        "vim",
-        "vimdoc",
         "yaml",
       },
       config = function(_, opts)
