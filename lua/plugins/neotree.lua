@@ -3,7 +3,7 @@ return {
   opts = {
     window = {
       position = "left",
-      width = 22, -- Set the width here (e.g., 30 columns)
+      width = 24, -- Set the width here (e.g., 30 columns)
       mappings = {
         ["Y"] = "none",
       },
