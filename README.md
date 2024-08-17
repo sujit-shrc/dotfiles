@@ -6,7 +6,9 @@
 
 [Arch Linux](https://archlinux.org/)
 
-[!NOTE] -Here is am using Arch with i3wm as my window manager.
+> [!NOTE]
+>
+> - Here is am using Arch with i3wm as my window manager.
 
 ### 2. Install git
 
@@ -37,7 +39,9 @@
   sudo pacman -S tmux
 ```
 
-!> [!IMPORTANT] -We will do `tmux` configs later.
+> [!IMPORTANT]
+>
+> - We will do `tmux` configs later.
 
 ### 6 Install treesitter & fzf & ripgrep for nvim
 
@@ -69,7 +73,8 @@
   nvim
 ```
 
-!> [!SUCCESS] -Awesome now your nvim is ready to use like an IDE.
+> [!TIP]
+> Awesome now your `nvim` is ready to use like an IDE.
 
 ### 11. Install lsp servers for your programming languages
 
@@ -77,3 +82,7 @@
   sudo pacman -S python-lsp-server typescript-language-server #or
   # open nvim, press `:` and type :TreeSitterInstall language_name
 ```
+
+# Setting up `tmux`
+
+[click Here for `tmux` configurations](./tmux/README.md)
