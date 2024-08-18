@@ -2,6 +2,9 @@
 
 ## NeoVim + Tmux + i3wm + Alacritty
 
+NeoVim Preview
+![neovim preview](./imgs/nvim.png)
+
 ### 1. Install Arch Linux
 
 [Arch Linux](https://archlinux.org/)
@@ -83,6 +86,14 @@
   # open nvim, press `:` and type :TreeSitterInstall language_name
 ```
 
-# Setting up `tmux`
+# Setting up `tmux` for multiple panes
+
+![tmux preview with neovim](./imgs/tmux-with-nvim.png)
 
 [click Here for `tmux` configurations](./tmux/README.md)
+
+# Setting up starship(rust based prompt) for minimalistic prompt
+
+![starship prompt preview](./imgs/starship.png)
+
+[click here for starship configurations](./starship/README.md)
