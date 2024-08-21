@@ -100,6 +100,6 @@ NeoVim Preview
 
 # Setting up i3wm
 
-i3wm preview
+![i3wm preview]('./imgs/i3wm.png')
 
-![click here for i3wm configurations process](./i3/README.md)
+[click here for i3wm configurations process](./i3/README.md)
