@@ -97,3 +97,9 @@ NeoVim Preview
 ![starship prompt preview](./imgs/starship.png)
 
 [click here for starship configurations](./starship/README.md)
+
+# Setting up i3wm
+
+i3wm preview
+
+![click here for i3wm configurations process](./i3/README.md)

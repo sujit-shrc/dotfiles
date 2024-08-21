@@ -1,0 +1,93 @@
+configuration {
+    font: "Fira Code 12";
+    line-margin: 10;
+    show-icons: true;
+    icon-theme: "Papirus";
+    display-drun: "";
+    drun-display-format: "{name}";
+}
+* {
+    bg: #121212;
+    bg-alt: #1E1E1E;
+    fg: #D8D8D8;
+    fg-alt: #808080;
+    input-bg: #1A1A1A;
+    selected-bg: #2A2A2A;
+    selected-fg: #FFFFFF;
+    border-col: #303030;
+ 
+    background-color: @bg;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+window {
+    width: 35%;
+    height: 35%;
+    background-color: @bg;
+    border-radius: 6px;
+    border: 2px;
+    border-color: @border-col;
+}
+mainbox {
+    background-color: @bg;
+    padding: 8px;
+}
+inputbar {
+    children: [prompt, entry];
+    background-color: @input-bg;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 0 20px 0;
+}
+prompt {
+    background-color: @bg-alt;
+    padding: 6px 10px;
+    text-color: @fg;
+    border-radius: 3px;
+    margin: 0 10px 0 0;
+}
+entry {
+    background-color: transparent;
+    padding: 6px;
+    text-color: @fg;
+    placeholder: "Type to search...";
+    placeholder-color: @fg-alt;
+}
+listview {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    columns: 1;
+    background-color: @bg;
+}
+element {
+    padding: 5px;
+    background-color: @bg;
+    text-color: @fg-alt;
+    border-radius: 4px;
+}
+element selected {
+    background-color: @selected-bg;
+    text-color: @selected-fg;
+}
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+element-icon {
+    size: 30px;
+    margin: 0 10px 0 0;
+}
+/* Scrollbar styling */
+scrollbar {
+    width: 2px;
+    border: 0;
+    handle-width: 3px;
+    padding: 0;
+    handle-color: @fg-alt;
+    background-color: @bg-alt;
+    border-radius: 8px;
+}
